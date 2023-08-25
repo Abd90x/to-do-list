@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+  width: 600px;
+  flex-direction: column;
+}
+.form {
+  width: 355px;
+  display: flex;
+  justify-content: center;
+  background-color: #eee;
+  padding: 20px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.input {
+  border: 2px solid;
+  background-color: #eee;
+  padding: 16.5px;
+  width: 220px;
+  border-color: orangered transparent orangered orangered;
+  border-radius: 15px 0 0 15px;
+  -webkit-border-radius: 15px 0 0 15px;
+  -moz-border-radius: 15px 0 0 15px;
+  -ms-border-radius: 15px 0 0 15px;
+  -o-border-radius: 15px 0 0 15px;
+}
+.input:focus {
+  border-color: orangered;
+  outline-color: orangered;
+  caret-color: orangered;
+}
+.add {
+  padding: 15px;
+  outline: none;
+  border: 1px solid orangered;
+  background-color: orangered;
+  margin-left: -8px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 0 15px 15px 0;
+  -webkit-border-radius: 0 15px 15px 0;
+  -moz-border-radius: 0 15px 15px 0;
+  -ms-border-radius: 0 15px 15px 0;
+  -o-border-radius: 0 15px 15px 0;
+  height: 55px;
+  cursor: pointer;
+}
+
+.tasks {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+}
+.task {
+  display: flex;
+  justify-content: space-between;
+  width: 355px;
+  background-color: #eee;
+  padding: 20px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  cursor: pointer;
+}
+button {
+  background-color: orangered;
+  outline: none;
+  border: none;
+  padding: 3px 6px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.done {
+  opacity: 0.4;
+}
+.del-all {
+  background-color: orangered;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
